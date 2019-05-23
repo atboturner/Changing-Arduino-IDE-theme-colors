@@ -25,7 +25,7 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
      id="defs9" /><sodipodi:namedview
      pagecolor="#ffffff"
-     bordercolor="#666666"
+     bordercolor="#000000"
      borderopacity="1"
      objecttolerance="10"
      gridtolerance="10"
@@ -46,8 +46,8 @@
      d="M 2.9679404,35 3,9.1392919 C 3,8.5703688 2.8999352,7.9992953 2.6619171,7.4938253 2.2985751,6.7216391 1.5213731,6 0,6 l 0,29 2.9679404,0 z"
      id="path5"
      inkscape:connector-curvature="0"
-     style="fill:#ebef0b" /><rect
-     style="fill:#ebef0b;fill-opacity:1;stroke:none"
+     style="fill:#F9E79F" /><rect
+     style="fill:#F9E79F;fill-opacity:1;stroke:none"
      id="rect4139"
      width="1"
      height="29"
