@@ -1,12 +1,11 @@
-#FUNCTIONS COLOR 			#D35400 - ORANGE			KEYWORD1
-#FUNCTIONS COLOR			#D35400 - ORANGE			KEYWORD2
-#STRUCTURE COLORS 			#728E00 - GREEN			KEYWORD3
-#CONSTANTS COLOR 				#00979C - BLUE				LITERAL1
-#VARIABLES COLOR 				#00979C - BLUE				LITERAL2
-
-#ERROR COLOR					#A61717 - RED
-#COMMENTS // COLOR		#0920ed
-#COMMENTS /**/ COLOR		#0920ed
+#FUNCTIONS COLOR 			#D35400 - ORANGE			    KEYWORD1
+#FUNCTIONS COLOR			#D35400 - ORANGE		    	KEYWORD2
+#STRUCTURE COLORS 		#A314C2 - BRIGHT PURPLE		KEYWORD3
+#CONSTANTS COLOR 			#00979C - BLUE					  LITERAL1
+#VARIABLES COLOR 			#00979C - BLUE					  LITERAL2
+#ERROR COLOR				  #A61717 - RED
+#COMMENTS // COLOR			#78909C
+#COMMENTS /**/ COLOR		#607D8B
 
 # GUI - STATUS
 status.notice.fgcolor = #002325
@@ -15,25 +14,25 @@ status.error.fgcolor = #FFFFFF
 status.error.bgcolor = #E34C00
 status.edit.fgcolor = #000000
 status.edit.bgcolor = #F1B500
-status.font = SansSerif,plain,12
+status.font = SansSerif,plain,14
 
 # GUI - TABS
 # (tab images are stored in the lib/theme folder)
 header.bgcolor = #17A1A5
-header.text.selected.color = #005B5B
-header.text.unselected.color = #007e82
-header.text.font = SansSerif,plain,12
+header.text.selected.color = #000080
+header.text.unselected.color = #5C6BC0
+header.text.font = SansSerif,bold,16
 
 # GUI - CONSOLE
-console.font = Monospaced,plain,11
-console.font.macosx = Monaco,plain,10
+console.font = Monospaced,plain,16
+console.font.macosx = Monaco,plain,18
 console.color = #000000
 console.output.color = #eeeeee
 console.error.color = #E34C00
 
 # GUI - BUTTONS
 buttons.bgcolor = #006468
-buttons.status.font = SansSerif,plain,12
+buttons.status.font = SansSerif,plain,14
 buttons.status.color = #ffffff
 
 # GUI - PLOTTING
@@ -84,22 +83,22 @@ editor.eolmarkers.color = #999999
 
 # bracket/brace highlighting
 editor.brackethighlight = true
-editor.brackethighlight.color = #006699
+editor.brackethighlight.color = #E70333
 
 
 # TEXT - KEYWORDS
 
 # FUNCTIONS
-editor.keyword1.style = #d35400,bold
-editor.data_type.style = #d35400,bold
+editor.keyword1.style = #D35400,bold
+editor.data_type.style = #D35400,bold
 
 # METHODS
 editor.keyword2.style = #D35400,plain
-editor.function.style = #d35400,plain
+editor.function.style = #D35400,plain
 
 # STRUCTURES
-editor.keyword3.style = #5E6D03,plain
-editor.reserved_word.style = #5E6D03,plain
+editor.keyword3.style = #12036D,plain
+editor.reserved_word.style = #12036D,bold
 
 
 # TEXT - LITERALS
@@ -110,7 +109,7 @@ editor.reserved_word_2.style = #00979C,plain
 editor.literal_boolean.style = #00979C,plain
 editor.literal_char.style = #00979C,plain
 editor.literal_string_double_quote.style = #005C5F,plain
-editor.preprocessor.style = #5E6D03,plain
+editor.preprocessor.style = #A001C8,plain
 
 # http://www.arduino.cc/
 editor.url.style = #0000ff,underlined
@@ -125,10 +124,10 @@ editor.label.style = #7e7e7e,bold
 
 
 # TEXT - COMMENTS
-editor.comment1.style = #0920ed,plain
-editor.comment2.style = #0920ed,plain
+editor.comment1.style = #455A64,bold
+editor.comment2.style = #455A64,plain
 
 
 # LINE STATUS - editor line number status bar at the bottom of the screen
-linestatus.font	   = SansSerif,plain,10
+linestatus.font	   = SansSerif,plain,14
 linestatus.height  = 20
